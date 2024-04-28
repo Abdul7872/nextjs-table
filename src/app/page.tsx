@@ -19,7 +19,7 @@ export default async function Page() {
   return <main>
     <Container maxWidth="lg">
       <Typography align="center" variant="h3" fontWeight={700} color={"darkgray"} m={2}>
-        Product List
+        Products List
       </Typography>
         
       <TableData data={data} />
